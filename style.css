@@ -1,0 +1,92 @@
+body {
+  width: 90%;
+  max-width: 1200px;
+  font: normal 14px/1.5 "Montserrat", "Helvetica Neue", sans-serif;
+  color: #37474f;
+  margin: 40px auto;
+}
+
+h1 {
+	 width: 500px;
+	 max-width: 90%;
+ 	 margin: 0 auto 10px;
+ 	 line-height: 100%;
+}
+
+
+
+.subheader {
+	width: 400px;
+	max-width: 90%;
+ 	margin: 0 auto;
+}
+.container {
+	margin: 40px auto;
+}
+
+.snippet {
+	width: 500px;
+	float: left;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	max-width: 90%;
+}
+
+.snippet p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.snippet:nth-of-type(2n+1) {
+    clear: left;
+  }
+
+.snippet img {
+	width: 500px;
+	max-width: 100%;
+}
+
+.arrow_back {
+	float: left;
+	width: 30px;
+	margin-right: 10px; 
+}
+
+h2 {
+	/*max-width: 70%;
+	float: left;*/
+}
+
+
+a {
+	text-decoration: none;
+	color: #37474f;
+}
+
+a:hover { 
+    color: blue; /* Ссылка красного цвета */
+   } 
+
+.image_block {
+	float: left;
+}
+
+.image_block img {
+	width: 600px;
+	max-width: 100%;
+}
+
+.description_block {
+	float: left;
+	margin: 0 auto;
+	max-width: 90%;
+}
+.description_block p {
+	max-width: 90%;
+	width: 350px;
+	margin-left: 20px;
+}
+
+
+
