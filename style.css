@@ -111,5 +111,9 @@ a:hover {
 	}
 }
 
+iframe {
+	max-width: 100%;
+}
+
 
 
