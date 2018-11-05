@@ -1,5 +1,4 @@
 body {
-  width: 90%;
   max-width: 1200px;
   font: normal 14px/1.5 "Montserrat", "Helvetica Neue", sans-serif;
   color: #37474f;
@@ -51,6 +50,7 @@ h1 {
 	float: left;
 	width: 30px;
 	margin-right: 10px; 
+	margin-left: 10px;
 }
 
 h2 {
@@ -70,6 +70,9 @@ a:hover {
 
 .image_block {
 	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	max-width: 90%;
 }
 
 .image_block img {
@@ -86,6 +89,26 @@ a:hover {
 	max-width: 90%;
 	width: 350px;
 	margin-left: 20px;
+}
+
+.backword {
+	font: bold 18px/1.5 "Montserrat", "Helvetica Neue", sans-serif;
+ 	color: #37474f;
+}
+
+
+@media screen and (min-width: 300px) {
+  	.backword {
+		font: bold 19px/1.5 "Montserrat", "Helvetica Neue", sans-serif;
+	 	color: #37474f;
+	}
+}
+
+@media screen and (min-width: 400px) {
+  	.backword {
+		font: bold 22px/1.5 "Montserrat", "Helvetica Neue", sans-serif;
+	 	color: #37474f;
+	}
 }
 
 
