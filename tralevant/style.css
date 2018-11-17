@@ -1,0 +1,80 @@
+body {
+  max-width: 1200px;
+  font: normal 14px/1.5 "Montserrat", "Helvetica Neue", sans-serif;
+  color: #37474f;
+  margin: 30px auto;
+}
+
+h1 {
+	 width: 500px;
+	 max-width: 90%;
+ 	 margin: 0 auto 10px;
+ 	 line-height: 100%;
+ 	 display: flex;
+ 	 justify-content: center;
+ 	 text-align: center
+}
+
+.subheader {
+	width: 400px;
+	max-width: 90%;
+ 	margin: 0 auto;
+ 	display: flex;
+ 	justify-content: center;
+}
+.container {
+	display: flex;
+	margin: 40px auto;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tag-container {
+	display: flex;
+}
+
+.tag-container p {
+	background-color: #FBF8FA;
+	margin-right: 10px; 
+	margin-bottom: 0px; 
+}
+
+.snippet {
+	width: 550px;
+	margin-bottom: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	max-width: 90%;
+
+}
+
+.snippet p {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+.snippet img {
+	width: 600px;
+	max-width: 100%;
+}
+
+
+h2 {
+	/*max-width: 70%;
+	float: left;*/
+}
+
+
+a {
+	/*text-decoration: none;
+	color: #37474f;*/
+}
+
+a:hover { 
+    color: blue; /* Ссылка красного цвета */
+   } 
+
+
+
+

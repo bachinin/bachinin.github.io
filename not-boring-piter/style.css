@@ -65,8 +65,14 @@ h2 {
 	float: left;*/
 }
 
+
+a {
+	text-decoration: none;
+	color: #37474f;
+}
+
 a:hover { 
-    color: red; /* Ссылка красного цвета */
+    color: blue; /* Ссылка красного цвета */
    } 
 
 .image_block {
